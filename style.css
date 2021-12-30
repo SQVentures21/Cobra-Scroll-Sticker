@@ -1,0 +1,120 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body
+{
+    background-image:url("Screenshot\ 2021-12-30\ 112957\ cobra\ test\ scroll.png") ;
+}
+
+
+.login-scroll
+  {
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    height:100px;
+   
+  }
+
+.container-flex
+{
+  display: flex;
+  flex-direction:row;
+  padding-top: 8px;
+  padding-bottom:8px;
+  width:100%;
+  margin:0 auto;
+  background-color: #202021;
+  justify-content: center;
+ 
+}
+
+.button-login-bottom
+{
+
+  color: #ffffff!important;
+  font-size: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+  line-height: 20px;
+  text-align: center;
+  width: 110px;
+  height: 40px;
+  max-width: 160px;
+  outline: none;
+  letter-spacing: normal;
+  border-radius: 3px;
+  background-color: #da323a;
+  margin: 20px 10px 8px 18px;
+  padding: 12px 9px;
+  font-family: Helvetica, sans-serif;
+}
+
+.text-bottom-scroll
+{
+  font-family:Helvetica, sans-serif;
+  font-size:12px;
+  color:white;
+  padding-right:0px;
+  padding-top:18px;
+  
+}
+
+.text-bottom-yellow
+{
+  font-weight: bold;
+  color:#ffea00;
+}
+
+.text-bottom-img
+{
+  width:70px;
+  height:80px;
+  padding-top:5px;
+  padding-left:5px;
+
+}
+
+
+@media(min-width:450px)
+{
+  .container-flex
+  {
+    width:450px;
+  }
+  .text-bottom-img
+  {
+    margin-right:10px;
+  }
+
+  .button-login-bottom
+  {
+    width:100%;
+    font-size:13px;
+    margin: 22px 10px 8px 18px;
+
+  }
+  .text-bottom-scroll
+  {
+    padding-right:10px;
+  }
+
+  .text-bottom-scroll
+  {
+    font-size:14px;
+  }
+}
+
+
+
+
+
